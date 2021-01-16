@@ -1,0 +1,35 @@
+
+
+<div class="container">
+    <h3 class="text">Login</h3>
+    <div class="row">
+      
+        <div class="col-md-6 offset-md-3 bg-light">
+        <form [formGroup]="loginForm">
+           
+            <div class="form-group">
+                <i class="fa fa-envelope email"></i> Email:
+                <input type="email" class="form-control"  formControlName='email' placeholder="email"  [pattern]="emailRegex" >
+                <span class="text-danger" *ngIf="loginForm.get('email').touched && loginForm.get('email').invalid">
+                    *Please enter emailid.</span>
+                    <small class="text-danger" *ngIf="loginForm.get('email').errors?.pattern">Email address is invalid</small>
+            </div>
+
+            <div class="form-group">
+                <i class="fa fa-lock lock"></i> Password:
+                <input type="password" class="form-control"  formControlName='password' placeholder="password" minlength="4">
+                <span class="text-danger" *ngIf="loginForm.get('password').touched && loginForm.get('password').invalid">
+                    *Please enter password.</span>   
+                  <span class="text-danger" *ngIf="loginForm.get('password').errors?.minlength">password must be 4 characters</span>        
+            </div>
+            <a href="#" [routerLink]="['/resetPass']">forgotPassword?</a>
+    
+           <div >
+            <button type="submit"  class="btn btn-success" [disabled]="!loginForm.valid" (click)="onSubmit()">Login</button>
+           </div>
+  
+           </form>
+        </div>
+    </div>
+</div>
+

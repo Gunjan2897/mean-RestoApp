@@ -1,0 +1,287 @@
+{
+  "fooditem": [
+    {
+      "id": 1,
+      "categories": [
+        {
+          "id": 1,
+          "food": "mater-panner",
+          "service": "Indian-veg",
+          "price": "56",
+          "img": "./assets/img/5.jpg"
+        },
+        {
+          "id": 2,
+          "food": "Rajma-rise",
+          "service": "Indian-veg",
+          "price": "86",
+          "img": "./assets/img/3.jpg"
+        },
+        {
+          "id": 3,
+          "food": "chole-bhature",
+          "service": "Indian-veg",
+          "price": "59",
+          "img": "./assets/img/4.jpg"
+        },
+        {
+          "id": 4,
+          "food": "Panipuri/Golgappe",
+          "service": "Indian-veg",
+          "price": "56",
+          "img": "./assets/img/5.jpg"
+        },
+        {
+          "id": 5,
+          "food": "Jalebi",
+          "service": "Indian-veg",
+          "price": "86",
+          "img": "./assets/img/3.jpg"
+        },
+        {
+          "id": 6,
+          "food": "Dal-makhani",
+          "service": "Indian-veg",
+          "price": "59",
+          "img": "./assets/img/4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "categories": [
+        {
+          "id": 7,
+          "food": "Almond Malai Kulfi",
+          "service": "Desert",
+          "price": "69",
+          "img": "./assets/img/kulfi.jpg"
+        },
+        {
+          "id": 8,
+          "food": "Lemon Tart",
+          "service": "Desert",
+          "price": "86",
+          "img": "./assets/img/tart.jpg"
+        },
+        {
+          "id": 9,
+          "food": "Coconut Kheer",
+          "service": "Desert",
+          "price": "80",
+          "img": "./assets/img/coco kheer.jpg"
+        },
+        {
+          "id": 10,
+          "food": "Choclate coffee",
+          "service": "Desert",
+          "price": "56",
+          "img": "./assets/img/choco.jpg"
+        },
+        {
+          "id": 11,
+          "food": "Rasmalai",
+          "service": "Desert",
+          "price": "86",
+          "img": "./assets/img/ras.jpg"
+        },
+        {
+          "id": 12,
+          "food": "Angel Fodd Cake",
+          "service": "Desert",
+          "price": "59",
+          "img": "./assets/img/ancake.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "categories": [
+        {
+          "id": 13,
+          "food": "Birayni",
+          "service": "Non-Veg",
+          "price": "62",
+          "img": "./assets/img/4.jpg"
+        },
+        {
+          "id": 14,
+          "food": "chiken-kebab",
+          "service": "Non-Veg",
+          "price": "86",
+          "img": "./assets/img/3.jpg"
+        },
+        {
+          "id": 15,
+          "food": "chiken",
+          "service": "Non-Veg",
+          "price": "98",
+          "img": "./assets/img/5.jpg"
+        },
+        {
+          "id": 16,
+          "food": "mater-panner",
+          "service": "Non-Veg",
+          "price": "56",
+          "img": "./assets/img/5.jpg"
+        },
+        {
+          "id": 17,
+          "food": "Rajma-rise",
+          "service": "Non-Veg",
+          "price": "86",
+          "img": "./assets/img/3.jpg"
+        },
+        {
+          "id": 18,
+          "food": "chole-bhature",
+          "service": "Non-Veg",
+          "price": "59",
+          "img": "./assets/img/4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "categories": [
+        {
+          "id": 19,
+          "food": "Mancurian",
+          "service": "Chinese",
+          "price": "86",
+          "img": "./assets/img/2.jpg"
+        },
+        {
+          "id": 20,
+          "food": "chiken-momos",
+          "service": "Chinese",
+          "price": "53",
+          "img": "./assets/img/3.jpg"
+        },
+        {
+          "id": 21,
+          "food": "chili-chicken",
+          "service": "Chinese",
+          "price": "87",
+          "img": "./assets/img/4.jpg"
+        },
+        {
+          "id": 19,
+          "food": "Mancurian",
+          "service": "Chinese",
+          "price": "86",
+          "img": "./assets/img/2.jpg"
+        },
+        {
+          "id": 20,
+          "food": "chiken-momos",
+          "service": "Chinese",
+          "price": "53",
+          "img": "./assets/img/3.jpg"
+        },
+        {
+          "id": 21,
+          "food": "chili-chicken",
+          "service": "Chinese",
+          "price": "87",
+          "img": "./assets/img/4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "categories": [
+        {
+          "id": 22,
+          "food": "Dosa",
+          "service": "SouthIndian",
+          "price": "73",
+          "img": "./assets/img/4.jpg"
+        },
+        {
+          "id": 23,
+          "food": "idli-sambhar",
+          "service": "SouthIndian",
+          "price": "26",
+          "img": "./assets/img/4.jpg"
+        },
+        {
+          "id": 24,
+          "food": "uttapam",
+          "service": "SouthIndian",
+          "price": "90",
+          "img": "./assets/img/4.jpg"
+        },
+        {
+          "id": 25,
+          "food": "mater-panner",
+          "service": "SouthIndian",
+          "price": "56",
+          "img": "./assets/img/5.jpg"
+        },
+        {
+          "id": 26,
+          "food": "Rajma-rise",
+          "service": "SouthIndian",
+          "price": "86",
+          "img": "./assets/img/3.jpg"
+        },
+        {
+          "id": 27,
+          "food": "chole-bhature",
+          "service": "SouthIndian",
+          "price": "59",
+          "img": "./assets/img/4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "categories": [
+        {
+          "id": 28,
+          "food": "Pizza",
+          "service": "Italian",
+          "price": "64",
+          "img": "./assets/img/7.jpg"
+        },
+        {
+          "id": 29,
+          "food": "pasta",
+          "service": "Italian",
+          "price": "58",
+          "img": "./assets/img/4.jpg"
+        },
+        {
+          "id": 30,
+          "food": "Tomato-soup",
+          "service": "Italian",
+          "price": "79",
+          "img": "./assets/img/4.jpg"
+        },
+        {
+          "id": 31,
+          "food": "mater-panner",
+          "service": "Italian",
+          "price": "56",
+          "img": "./assets/img/5.jpg"
+        },
+        {
+          "id": 32,
+          "food": "Rajma-rise",
+          "service": "Italian",
+          "price": "86",
+          "img": "./assets/img/3.jpg"
+        },
+        {
+          "id": 33,
+          "food": "chole-bhature",
+          "service": "Italian",
+          "price": "59",
+          "img": "./assets/img/4.jpg"
+        }
+      ]
+    }
+  ]
+
+}

@@ -1,0 +1,26 @@
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <!-- <th>id</th> -->
+            <th>service</th>
+            <th>FoodItems</th>
+            <th>Prise</th>
+            <th>img</th>
+            <th>action</th>
+            <th>Delete items</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let cartitem of cartlist">
+            <!-- <td>{{cartitem.id}}</td> -->
+            <td>{{cartitem.service}}</td>
+            <td>{{cartitem.food}}</td>
+            <td>{{cartitem.price | currency}}</td>
+            <td><img src="{{cartitem.img}}"style="width: 100px; height: 100px;"></td>
+            <td><i class="fa  fa-plus-square"></i><br><i class="fa fa-minus-square"></i></td>
+            <td><i class="fa fa-remove" (click)="deleteitems(cartitem.id)">remove</i></td>
+        </tr>
+        <tr><button class="btn btn-success" (click)="PlaceOrder()">CheckOut</button></tr>
+    </tbody>
+
+</table>

@@ -1,0 +1,48 @@
+<h1 class="heading">Add Services & FoodItems</h1>
+
+<div style="margin: auto; width: 50%; border: 3px solid green;">select-categories
+    <select [(ngModel)]="categoriesSelected" (ngModelChange)='oncategoriesSelected($event)'>
+        <option *ngFor="let cate of categories" [value]="cate.id">
+            {{cate.service}}
+        </option>
+    </select>
+</div>
+<!-- The Selected categories id is::{{categoriesSelected}} -->
+
+<!-- <table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>Service</th>
+             <th>fooditems</th>
+             <th>Prise</th>
+             <th>img</th>
+             <th>action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let food of item">
+                <td>{{food.service}}</td>
+                <td>{{food.food}}</td>
+                <td>{{food.prise}}</td>
+                <td><img src="{{food.img}}" style="width: 100px; height: 100px;"></td>
+                <button class="btn btn-success" (click)="addcart(food.id)">Add to cart</button>
+        </tr>
+    </tbody>
+</table> -->
+
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-4" *ngFor="let food of item">
+        <div class="card mt-3" style="width: 18rem;">
+            <img src={{food.img}} height="200px" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title text-primary">{{food.service}}</h5>
+              <p class="card-text">Price:{{food.price |currency}}</p>
+              <p class="card-text text-danger">{{ food.food }}</p>
+              <a (click)="addcart(food.id)" class="btn btn-success">AddToCart</a>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>

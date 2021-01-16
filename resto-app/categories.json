@@ -1,0 +1,37 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "service": "indian-veg"
+    },
+    {
+      "id": 2,
+      "service": "Desert"
+    },
+    {
+      "id": 3,
+      "service": "Non-Veg"
+    },
+    {
+      "id": 4,
+      "service": "Chinese"
+    },
+    {
+      "id": 5,
+      "service": "SouthIndian"
+    },
+    {
+      "id": 6,
+      "service": "Italian"
+    }
+  ],
+  "cart": [
+    {
+      "id": 9,
+      "food": "Coconut Kheer",
+      "service": "Desert",
+      "price": "80",
+      "img": "./assets/img/coco kheer.jpg"
+    }
+  ]
+}
